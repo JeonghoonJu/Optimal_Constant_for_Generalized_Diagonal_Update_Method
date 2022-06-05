@@ -1,6 +1,6 @@
 # Optimal Constant for Generalized Diagonal Update Method
 This page is for sharing some m-files(matlab files) which are used in the paper "**Optimal Constant for Generalized Diagonal Update Mehotd**".
-The following files are used in the "**section 5 Numerical experimets**" of the paper.
+The following files are used in the "**Section 5 Numerical experimets**" of the paper.
 
 ### Making Matrices
 - makeABCdampKim : for making the matrices A,B, and C in the example 1.
