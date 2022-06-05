@@ -3,8 +3,8 @@ This page is for sharing some m-files(matlab files) which are used in the paper 
 The following files are used in the "**Section 5 Numerical experimets**" of the paper.
 
 ### Making Matrices
-- makeABCdampKim : for making the matrices A,B, and C in the example 1.
-- makeABCdampBai2 : for making the matrices A,B, and C in the example 2.
+- makeABCdampKim : for making the matrices A,B, and C in Example 1.
+- makeABCdampBai2 : for making the matrices A,B, and C in Example 2.
 
 ### Methods
 - bartelsStewart : for using the Bartels-Stewart method to solve a generalized Sylvester equation AXB^T+CXD^T=E. **This code is from https://github.com/ajt60gaibb/freeLYAP .**
