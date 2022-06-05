@@ -2,11 +2,11 @@
 This page is for sharing some m-files(matlab files) which are used in the paper "**Optimal Constant for Generalized Diagonal Update Mehotd**".
 The following files are used in the section 5 'Numerical experiemts' of the paper.
 
-### Making Matrices Codes
+### Making Matrices
 - makeABCdampKim : for making the matrices A,B, and C in the example 1.
 - makeABCdampBai2 : for making the matrices A,B, and C in the example 2.
 
-### Method Codes
+### Methods
 - bartelsStewart : for using the Bartels-Stewart method to solve a generalized Sylvester equation AXB^T+CXD^T=E. **This code is from https://github.com/ajt60gaibb/freeLYAP .**
 - bi1 : for using the Bernoulli's method BI1 : X_{k+1}=F_1(X_k), F_1(X)=-(B+X)^{-1}C to solve a quadratic matrix equation AX^2+BX+C=0.
 - bi2 : for using the Bernoulli's method BI2 : X_{k+1}=F_2(X_k), F_2(X)=-B^{-1}(X^2+C) to solve a quadratic matrix equation AX^2+BX+C=0.
@@ -15,7 +15,7 @@ The following files are used in the section 5 'Numerical experiemts' of the pape
 - nm_qme_Bartels : for using the Newton's method with the Bartels-Stewart method to solve a quadratic matrix equation AX^2+BX+C=0.
 - cr_uqme : for using the cyclic reduction method in "**Algorithms for Hyperbolic quadratic eigenvalue problems (Guo, Lancaster, 2005)**" to solve a quadratic matrix equation AX^2+BX+C=0.
 
-### Compiler Codes
+### Compiler
 - fig1_1 : for comparing iteration numbers of the methods BI1 and BI1-OC, and for making the Figure 1_1.
 - fig1_2 : for comparing iteration numbers of the methods BI2 and BI2-OC, and for making the Figure 1_2.
 - timecompare : for comparing computational time and making the Talbe 1.
