@@ -13,7 +13,7 @@ The following files are used in "**Section 5 Numerical experimets**" of the pape
 - bi1_oc : for using the generalized diagonal update method BI1-OC with the fucntion G_{\gamma}(X) to solve a quadratic matrix equation AX^2+BX+C=0.
 - bi2_oc : for using the generalized diagonal update method BI2-OC with the fucntion H_{\gamma}(X) to solve a quadratic matrix equation AX^2+BX+C=0.
 - nm_qme_Bartels : for using the Newton's method with the Bartels-Stewart method to solve a quadratic matrix equation AX^2+BX+C=0.
-- cr_uqme : for using the cyclic reduction method in "**Algorithms for Hyperbolic quadratic eigenvalue problems (Guo, Lancaster, 2005)**" to solve a quadratic matrix equation AX^2+BX+C=0.
+- cr_uqme : for using the cyclic reduction method in "**Algorithms for Hyperbolic quadratic eigenvalue problems (Guo, Lancaster, 2005)**" and "**Numerical Solution of Algebraic Riccati Equations (Bini, Iannazzo, Meini, 2012)**" to solve a quadratic matrix equation AX^2+BX+C=0.
 
 ### Compiler
 - fig1_1 : for comparing iteration numbers of the methods BI1 and BI1-OC, and for making the Figure 1_1.
