@@ -23,9 +23,8 @@ B=0.95*B;
     [X, iter, res, t] = nm_qme_Bartels(A,B,C); 
     c=res;
     clear res
-
     
-    %Cyclic Reduction2
+    %Cyclic Reduction
     [X, iter, res, t] = cr_uqme(A,B,C);
     d=res;
     clear res
