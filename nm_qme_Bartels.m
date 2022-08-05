@@ -1,4 +1,4 @@
-function [X,iter,res,t]=nm_qme_Bartels(A,B,C,m)
+function [X,iter,res,t]=nm_qme_Bartels(A,B,C)
 % A*X^2 + B*X + C = 0
 
 tol = 1e-13;
