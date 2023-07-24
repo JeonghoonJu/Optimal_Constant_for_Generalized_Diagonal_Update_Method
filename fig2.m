@@ -38,5 +38,5 @@ plot(x1,'*k');
 plot(x2,'db');
 xlabel('Iteration number')
 ylabel('Residual')
-legend('BI2','BI2-OC')
+legend('BI1','BI1-OC')
 set(gca, 'YScale', 'log')
