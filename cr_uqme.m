@@ -28,7 +28,7 @@ while (err > m*tol) && (iter < kmax)
     X0=X0-W; %X0=X0-A0*inv(B0)*C0
     B0=B0-W; %B0=B0-C0*inv(B0)*A0-A0*inv(B0)*C0
     
-    err = norm(A0,1);
+    err = norm(W,'inf')/norm(X0,'inf');
     iter = iter + 1;
 end
 if iter == kmax
@@ -36,4 +36,4 @@ if iter == kmax
 end
 X=-X0\C;
 t=toc;
-res=norm( X^2 + B*X + C,'fro');
+res = norm(X^2+B*X+C,'inf')/(norm(X^2,'inf')+norm(B*X,'inf')+norm(C,'inf'));
