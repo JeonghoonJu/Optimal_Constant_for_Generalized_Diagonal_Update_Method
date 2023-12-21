@@ -3,7 +3,7 @@ clear;
 close all;
 
 %data=[13 10; 12 10;12 9];
-data=[16 12; 16 11; 14 9];
+data=[16 12; 16 11; 15 11];
 bar(data,1);
 
 xlabel ( 'Example 5.1', 'fontsize', 15, 'FontName', 'Times New Roman');
